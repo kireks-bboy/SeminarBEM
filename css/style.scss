@@ -1,0 +1,96 @@
+
+@import 'fonts';
+@import 'reset';
+@import 'vars';
+@import 'header';
+@import 'main';
+@import 'apply';
+@import 'about';
+@import 'clients';
+@import 'footer';
+
+
+
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #010714;
+  overflow-x: hidden;
+ 
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+
+.container{
+  max-width: 1176px;
+padding: 0 15px;
+  margin: 0 auto;
+ 
+}
+.title{
+  @extend %title;
+}
+
+.text{
+  @extend %text;
+  color: $text-color;
+}
+
+.item-title{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 125%;
+  color: $text-color;
+}
+.item{
+  padding: 30px;
+  text-align: center;
+  background-color: $item-bg;
+border-radius: 10px;
+}
+
+.button{
+  @extend %btn-bg-bd;
+}
+
+.title-ft{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.info-ft{
+  @extend %footer-text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
